@@ -1,0 +1,71 @@
+/* todo Title */
+.description {
+    font-size: large;
+    font-weight: bold;
+    color: #252323;
+}
+/* input box */
+.description input {
+    width: 600px;
+    height: 40px;
+    margin-bottom: 12px;
+
+}
+/* Category part */
+.form {
+    display: inline;
+    width: 400px;
+    height: 40px;
+    border-color: rgb(39, 41, 41);
+}
+/* Date Part */
+.date {
+    display: inline-block;
+    width: 100px;
+    font-size: large;
+    font-weight: bold;
+    color: #252323;
+}
+
+.date input {
+    display: inline-block;
+    height: 40px;
+}
+
+/* add Button */
+.button {
+    margin-left: 60px;
+    display: inline-block;
+}
+/* Check-box */
+#ckBox {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+/* TO-DO list  */
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+ul li span strong {
+    color: rgb(64, 160, 75);
+}
+
+/* delete-Button */
+.delete-button a p {
+    margin-left: 45%;
+    text-align: center;
+    border: 2px solid #aeaeae;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(215, 74, 74);
+    color: #252323;
+}
+
+.delete-button a {
+    text-align: center;
+    text-decoration: none;
+}
